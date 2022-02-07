@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.nchikumbeapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.nchikumbeapp.ui.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_add_product"
+        android:name="com.example.nchikumbeapp.ui.add_product.Add_ProductFragment"
+        android:label="@string/add_product"
+        tools:layout="@layout/fragment_add_product" />
+    <fragment
+        android:id="@+id/nav_my_products"
+        android:name="com.example.nchikumbeapp.My_ProductsFragment"
+        android:label="@string/my_products"
+        tools:layout="@layout/fragment_my__products" />
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.nchikumbeapp.About_usFragment"
+        android:label="@string/about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.example.nchikumbeapp.Contact_usFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/nav_view"
+        android:name="com.example.nchikumbeapp.View_Loan_CompaniesFragment"
+        android:label="View_loan_companies"
+        tools:layout="@layout/fragment_view__loan__companies" />
+</navigation>

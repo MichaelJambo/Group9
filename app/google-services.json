@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "389131255969",
+    "project_id": "register-8a04f",
+    "storage_bucket": "register-8a04f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:389131255969:android:ea90d884c0dab846f9b0e0",
+        "android_client_info": {
+          "package_name": "com.example.nchikumbeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "389131255969-fhbu09ugcje22e5l64rlmuqnsr5nj1kh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpN-IIH28guVjdIZ8BpZ6C7WsiTFCzhuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "389131255969-fhbu09ugcje22e5l64rlmuqnsr5nj1kh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
